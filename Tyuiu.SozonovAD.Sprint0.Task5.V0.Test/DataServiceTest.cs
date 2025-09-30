@@ -1,12 +1,13 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.SozonovAD.Sprint0.Task4.V0.Lib;
+using Tyuiu.SozonovAD.Sprint0.Task5.V0.Lib;
 
-namespace Tyuiu.SozonovAD.Sprint0.Task4.V0.Test
+namespace Tyuiu.SozonovAD.Sprint0.Task5.V0.Test
 {
     [TestClass]
     public class DataServiceTest
     {
+
         [TestMethod]
         public void CheckedAdditionValid()
         {
@@ -28,4 +29,5 @@ namespace Tyuiu.SozonovAD.Sprint0.Task4.V0.Test
             Assert.AreEqual(3, DataService.Division(9, 3));
         }
     }
-}
+    }
+
