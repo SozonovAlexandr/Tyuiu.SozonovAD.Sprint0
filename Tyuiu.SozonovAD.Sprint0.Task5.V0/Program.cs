@@ -16,6 +16,8 @@ namespace Tyuiu.SozonovAD.Sprint0.Task5.V0
             Console.WriteLine("A + B = " + DataService.Multiplication(10, 10));
             Console.WriteLine("A + B = " + DataService.Division(9, 3));
             Console.ReadKey();
+
         }
     }
+
 }
